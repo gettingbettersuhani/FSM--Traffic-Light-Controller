@@ -13,6 +13,8 @@ States: Red → Green → Yellow
 Configurable timing using counters
 Predictable and structured sequential design
 Fully verified through simulation
+
+
 🧠 Design Approach
 FSM Type
 Implemented using a Moore FSM
@@ -23,6 +25,8 @@ Each state is active for a specific number of clock cycles
 Timing Control
 A counter is used to maintain delay for each state
 Transition occurs when the counter reaches a threshold
+
+
 💡 Technical Insight
 FSM-based designs provide clear and scalable control logic
 Moore FSM ensures glitch-free outputs compared to Mealy FSM
